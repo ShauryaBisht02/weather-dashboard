@@ -1,0 +1,14 @@
+[
+  {
+    "city": "jabalpur",
+    "timestamp": "2026-03-20 21:53",
+    "temp": 19.1,
+    "description": "Broken clouds"
+  },
+  {
+    "city": "delhi",
+    "timestamp": "2026-03-20 21:53",
+    "temp": 18.1,
+    "description": "Mist"
+  }
+]
