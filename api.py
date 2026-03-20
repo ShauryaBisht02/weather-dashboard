@@ -1,12 +1,11 @@
 import requests
 import os
-import streamlit as st
-from dotenv import load_dotenv
-
-load_dotenv()
 try:
+    import streamlit as st
     API_KEY = st.secrets["API_KEY"]
-except:
+except Exception:
+    from dotenv import load_dotenv
+    load_dotenv()
     API_KEY = os.getenv("API_KEY")
 BASE_URL = "https://api.openweathermap.org/data/2.5"
 
